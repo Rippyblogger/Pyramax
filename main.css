@@ -28,6 +28,7 @@
     font-size: 1.4rem;
     padding: 1rem;
     text-align: center;
+    
 }
 
 .nav a{
@@ -64,5 +65,21 @@
 
 .nav li i:hover{
     transform: scale(1.2);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px white;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
+}
+
+.pyra-h1{
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 1rem;
 }
 
