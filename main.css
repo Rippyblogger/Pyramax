@@ -4,6 +4,8 @@
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
     
 }
 
@@ -46,7 +48,7 @@
 
 .nav li ul li{
     display: none;
-    background-color: #575757;
+
     box-sizing: content-box;
 }
 
@@ -59,7 +61,7 @@
     display: block;
     
     align-items: center;
-    background-color: #7A7A7A;
+    background-color: #7AA2D8;
 } 
 
 
@@ -70,7 +72,7 @@
 .content{
     display: flex;
     flex-direction: column;
-    border: solid 1px white;
+    /* border: solid 1px white; */
     align-items: center;
     justify-content: center;
     height: 80vh;
@@ -81,5 +83,32 @@
     font-weight: 500;
     font-size: 2rem;
     padding: 1rem;
+    color: #F9F871;
+    
+}
+
+.que-flexbox{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.que-flexbox li{
+    box-sizing: content-box;
+    padding: 2rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 1s;
+    left: 200px;
+}
+
+.que-flexbox li:hover{
+    border-bottom: 2px solid #B52D42;
+    transform: scaleX(1.1);
+}
+
+.build >div> img{
+    display: none;
 }
 
